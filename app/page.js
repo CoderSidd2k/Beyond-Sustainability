@@ -2,7 +2,9 @@ import React from "react";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Product from "../components/Product";
-import Carbon from "../components/Carbon"
+import Carbon from "../components/Carbon";
+import Slider from "../components/Slider";
+import Footer from "../components/Footer";
 const page = () => {
   return (
     <main>
@@ -11,6 +13,8 @@ const page = () => {
                <Hero />
                <Product/>
                <Carbon/>
+               <Slider/>
+               <Footer/>
       </section>
     </main>
   );
