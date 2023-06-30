@@ -12,7 +12,7 @@ const Carbon = () => {
         <div>
             <h1>ESG strategy</h1>
             <p>Integrate ESG strategies and governance frameworks Identify ESG risks and opportunities ESG dashboards & reports Generate a yearly ESG report</p>
-            <button>Actihmhon</button>
+            <button>Action</button>
         </div>
 
     </div>
