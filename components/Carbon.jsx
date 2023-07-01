@@ -4,8 +4,8 @@ import { FaInstagram, FaFacebook, FaTwitter, FaPinterest } from 'react-icons/fa'
 const Carbon = () => {
   return (
     <div className="flex justify-center items-center h-screen">
-      <div className="flex flex-col items-center md:flex-row">
-        <div className="text-center md:text-left">
+      <div className="flex flex-col md:flex-row  md:ml-12 mt-8 md:mt-0 text-left">
+        <div>
           <p className="text-gray-600">Our Product</p>
           <h1 className="text-3xl font-bold">Carbon Management</h1>
           <p className="text-gray-600">
@@ -13,11 +13,11 @@ const Carbon = () => {
             Develop de-carbonization projects
             Offset your carbon emissions through offset projects
           </p>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
+          <button className="bg-green-600 text-white px-4 py-2 rounded-none">
             Book a Demo
           </button>
         </div>
-        <div className="ml-8 md:ml-12 mt-8 md:mt-0">
+        <div className=" md:ml-12 mt-8 md:mt-0">
           <h1 className="text-3xl font-bold">ESG Strategy</h1>
           <p className="text-gray-600">
             Integrate ESG strategies and governance frameworks
@@ -25,7 +25,7 @@ const Carbon = () => {
             ESG dashboards & reports
             Generate a yearly ESG report
           </p>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
+          <button className="bg-green-600 text-white px-4 py-2 rounded-none">
             Action
           </button>
         </div>

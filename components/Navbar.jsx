@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
-import bnbn from '../Resources/bnbn.png'
+import bnbn from '../Resources/bnbn.png';
+import Link from 'next/link'
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -19,9 +20,12 @@ const Navbar = () => {
           <a href="#" className="text-gray-700 hover:text-gray-900 px-4">Home</a>
           <a href="#" className="text-gray-700 hover:text-gray-900 px-4">About</a>
           <a href="#" className="text-gray-700 hover:text-gray-900 px-4">Services</a>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            Contact Us
-          </button>
+          <Link
+                href="/contact"
+                className="bg-green-600 text-white px-4 py-2 rounded-none "
+              >
+                Contact us
+              </Link>
         </div>
         <div className="relative md:hidden">
           <button
@@ -54,9 +58,12 @@ const Navbar = () => {
               <a href="#" className="block text-gray-700 hover:text-gray-900 py-2">
                 Services
               </a>
-              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                Contact Us
-              </button>
+              <Link
+                href="/contact"
+                className="bg-green-600 text-white px-4 py-2 rounded-none "
+              >
+                Contact us
+              </Link>
             </div>
           )}
         </div>

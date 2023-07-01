@@ -3,7 +3,8 @@ import heroimg from "../Resources/heroimg.jpg";
 import compone from "../Resources/compone.jpg";
 import comp2 from "../Resources/comp2.jpg";
 import comp3 from "../Resources/comp3.jpg";
-
+import Contact from "../components/Contact";
+import Link from 'next/link'
 
 const Hero = () => {
   return (
@@ -13,7 +14,14 @@ const Hero = () => {
           <div className='p-5 text-left'>
             <h1 className='text-3xl font-bold mb-4'>Let us Transform your sustainability journey.</h1>
             <p className='mb-4'>Reduce your environmental impact by using a scientific data-driven approach and restore damage</p>
-            <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>Contact us</button>
+            <Link
+                href="/contact"
+                className="bg-green-600 text-white px-4 py-2 rounded-none "
+              >
+                Contact us
+              </Link>
+
+
             
           </div>
           
